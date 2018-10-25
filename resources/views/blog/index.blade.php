@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MyBlog | My Awesome Blog</title>
+    <title>MyBlogxxx | My Awesome Blog</title>
 
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
@@ -28,7 +28,7 @@
             <div class="collapse navbar-collapse" id="the-navbar-collapse">
               <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#">Blog</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#">Aboutxxx</a></li>
                 <li><a href="#">Contact</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
