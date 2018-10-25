@@ -29,7 +29,7 @@
               <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#">Blog</a></li>
                 <li><a href="#">Aboutxxx</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Contactxxx</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container -->
