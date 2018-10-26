@@ -1,14 +1,8 @@
-@extends('layouts.main')
-
-@section('content')
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
+<div class="col-md-8">
                 <article class="post-item">
                     <div class="post-item-image">
                         <a href="post.html">
-                            <img src="/img/Post_Image_1.jpg" alt="">
+                            <img src="img/Post_Image_1.jpg" alt="">
                         </a>
                     </div>
                     <div class="post-item-body">
@@ -27,7 +21,7 @@
                                 </ul>
                             </div>
                             <div class="pull-right">
-                                <a href="post.html">Continue Reading &raquo;</a>
+                                <a href="post.html">Continue Reading »</a>
                             </div>
                         </div>
                     </div>
@@ -35,7 +29,7 @@
                 <article class="post-item">
                     <div class="post-item-image">
                         <a href="post.html">
-                            <img src="/img/Post_Image_2.jpg" alt="">
+                            <img src="img/Post_Image_2.jpg" alt="">
                         </a>
                     </div>
                     <div class="post-item-body">
@@ -54,7 +48,7 @@
                                 </ul>
                             </div>
                             <div class="pull-right">
-                                <a href="post.html">Continue Reading &raquo;</a>
+                                <a href="post.html">Continue Reading »</a>
                             </div>
                         </div>
                     </div>
@@ -62,7 +56,7 @@
                 <article class="post-item">
                     <div class="post-item-image">
                         <a href="post.html">
-                            <img src="/img/Post_Image_3.jpg" alt="">
+                            <img src="img/Post_Image_3.jpg" alt="">
                         </a>
                     </div>
                     <div class="post-item-body">
@@ -81,7 +75,7 @@
                                 </ul>
                             </div>
                             <div class="pull-right">
-                                <a href="post.html">Continue Reading &raquo;</a>
+                                <a href="post.html">Continue Reading »</a>
                             </div>
                         </div>
                     </div>
@@ -89,15 +83,8 @@
 
                 <nav>
                   <ul class="pager">
-                    <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Newer</a></li>
-                    <li class="next"><a href="#">Older <span aria-hidden="true">&rarr;</span></a></li>
+                    <li class="previous disabled"><a href="#"><span aria-hidden="true">←</span> Newer</a></li>
+                    <li class="next"><a href="#">Older <span aria-hidden="true">→</span></a></li>
                   </ul>
                 </nav>
             </div>
-            
-            @include('layouts.sidebar')
-
-        </div>
-    </div>
-
-@endsection
