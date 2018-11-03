@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
-use Illursminate\Database\Migrations\Migration;
+use Illuminate\Database\Migrations\Migration;
 
 class CreatePostsTable extends Migration
 {
