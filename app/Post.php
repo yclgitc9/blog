@@ -13,6 +13,9 @@ class Post extends Model
         if (! is_null($this->image))
         {
             $imagePath = public_path() . "/img/" . $this->image;
+            echo $imagePath;
+            
+
             if (file_exists($imagePath)) $imageUrl = asset("img") . "/" . $this->image;
             
         }
