@@ -16,7 +16,14 @@ Route::get('/', [
     
 ]);
 
+Route::get('/test', [
+    'uses' => 'BlogController@test',
+    
+]);
+
 Route::get('/blog/show', function () {
     return view('blog.show');
 });
+
+
 

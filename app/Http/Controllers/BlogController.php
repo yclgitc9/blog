@@ -21,4 +21,6 @@ class BlogController extends Controller
         //die('blog index');
         return view("blog.test", compact('posts')); 
     }
+
+    
 }
