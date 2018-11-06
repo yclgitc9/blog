@@ -10,7 +10,9 @@
                 <article class="post-item">
                     <div class="post-item-image">
                         <a href="post.html">
-                            <img src="{{$post->image_url}}" alt="">
+
+                            <!-- <img src="{{$post->image_url}}" alt=""> -->
+                            <img src="xxxxx" alt="">
                         </a>
                     </div>
                     <div class="post-item-body">
