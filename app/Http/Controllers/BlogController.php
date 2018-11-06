@@ -14,4 +14,11 @@ class BlogController extends Controller
         //die('blog index');
         return view("blog.index", compact('posts')); 
     }
+
+    public function test() 
+    {
+        $posts = Post::all();
+        //die('blog index');
+        return view("blog.test", compact('posts')); 
+    }
 }
