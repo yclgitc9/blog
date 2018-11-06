@@ -12,7 +12,7 @@
                         <a href="post.html">
 
                             <!-- <img src="{{$post->image_url}}" alt=""> -->
-                            <img src = ../../img/Post_image_5.jpg alt=""/>
+                            <img src = "/img/Post_Image_3_thumb.jpg alt="/>
                         </a>
                     </div>
                     <div class="post-item-body">
