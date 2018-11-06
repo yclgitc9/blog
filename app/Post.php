@@ -20,8 +20,8 @@ class Post extends Model
         // }
 
 
-        // $imageUrl = asset("img") . "/" . $this->image;
-        $imageUrl = asset("img") . "/" . "Post_image_5.jpg";
+        $imageUrl = asset("img") . "/" . $this->image;
+        // $imageUrl = asset("img") . "/" . "Post_image_5.jpg";
         return $imageUrl;
     }
 }

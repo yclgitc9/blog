@@ -8,7 +8,10 @@
 </head>
 <body>
 @foreach($posts as $post)
-     {{$post->image}};
+     <!-- {{$post->image}}; -->
+     
+     {{$post->image_url}};     
+    <br>
 @endforeach
 
 <!-- <?php 
