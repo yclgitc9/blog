@@ -10,7 +10,7 @@
 @foreach($posts as $post)
      <!-- {{$post->image}}; -->
      
-     {{$post->image_url}};     
+     {{$post->image_url}}     
     <br>
 @endforeach
 
