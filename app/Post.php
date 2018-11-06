@@ -27,4 +27,14 @@ public function author()
         }        
         return $imageUrl;
     }
+
+    public function getDateAttribute()
+    {
+        return $this->created_at->diffForHumans();
+    }
+
+    public function scopeLatestFirst()
+    {
+        return $this->orderBy('created_at', 'desc');
+    }
 }
