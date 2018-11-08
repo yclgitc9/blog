@@ -13,17 +13,18 @@
 
 Route::get('/', [
     'uses' => 'BlogController@index',
-    
+    'as' => 'blog'
 ]);
 
 Route::get('/test', [
     'uses' => 'BlogController@test',
     
+    
 ]);
 
-Route::get('/blog/show', function () {
-    return view('blog.show');
-});
+// Route::get('/blog/show', function () {
+//     return view('blog.show');
+// });
 
 
 
