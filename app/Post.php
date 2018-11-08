@@ -7,7 +7,7 @@ use Carbon\Carbon;
 
 class Post extends Model
 {
-    protected $dates = ['published_at'];
+    protected $dates  = ['published_at'];
 
 public function author()
 {

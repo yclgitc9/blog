@@ -6,10 +6,10 @@
         <div class="row">
             <div class="col-md-8">
 
-                @foreach($posts as $post)
+            @foreach($posts as $post)
                 <article class="post-item">
                     <div class="post-item-image">
-                        <a href="post.html">
+                        <a href="{{ route('blog.show', $post->id) }}">
 
                             <img src="{{$post->image_url}}" alt=""> 
                             
@@ -17,7 +17,7 @@
                     </div>
                     <div class="post-item-body">
                         <div class="padding-10">
-                            <h2><a href="post.html"> {{ $post->title }} </a></h2>
+                            <h2><a href="{{ route('blog.show', $post->id) }}"> {{ $post->title }} </a></h2>
                             <p> {{ $post->excerpt }} </p>  
                         </div>
 
@@ -31,7 +31,7 @@
                                 </ul>
                             </div>
                             <div class="pull-right">
-                                <a href="post.html">Continue Reading &raquo;</a>
+                                <a href="{{ route('blog.show', $post->id) }}">Continue Reading &raquo;</a>
                             </div>
                         </div>
                     </div>
