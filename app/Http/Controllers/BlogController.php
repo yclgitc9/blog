@@ -20,10 +20,10 @@ class BlogController extends Controller
         return view("blog.index", compact('posts')); 
     }
 
-    public function show($id)
+    public function show(Post $post)
     {
         // die("show");
-        $post = Post::findOrFail($id);
+        // $post = Post::published()->findOrFail($id);
         return view("blog.show", compact('post'));
     }
 
