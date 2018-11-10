@@ -4,8 +4,8 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use Carbon\Carbon;
-// use GrahamCampbell\Markdown\Facades\Markdown;
-// use Illuminate\Mail\Markdown;
+use GrahamCampbell\Markdown\Facades\Markdown;
+
 
 Class Post extends Model
 {

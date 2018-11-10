@@ -12,14 +12,13 @@
      
      {{$post->image_url}}     
     <br>
+    <?php
+// use GrahamCampbell\Markdown\Facades\Markdown;
+echo Markdown::convertToHtml(e($post->excerpt)); ?>
 @endforeach
 
-<?php
-use GrahamCampbell\Markdown\Facades\Markdown;
-echo Markdown::convertToHtml(e($post->body)); ?>
-<!-- <?php 
-    phpinfo(); 
-?> -->
+
+
     
 </body>
 </html>
