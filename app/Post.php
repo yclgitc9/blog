@@ -18,7 +18,8 @@ Class Post extends Model
     public function getImageUrlAttribute($value)
     {
         $imageUrl = "";
-        if (!is_null($this-image))
+
+        if (! is_null($this->image))
         {
             $imagePath = public_path() . "/img/" . $this->image;
             if (file_exists($imagePath)) $imageUrl = asset("img") . "/" . $this->image;            
@@ -28,7 +29,7 @@ Class Post extends Model
 
     public function getDateAttribute()
     {
-        return is_null($this-published_at) ? '' : $this->published_at->diffForHumans();        
+        return is_null($this->published_at) ? '' : $this->published_at->diffForHumans();        
     }
 
     public function getBodyHtmlAttribute($value)
