@@ -27,7 +27,7 @@
                                 </ul>
                             </div>
                                 <!-- {!! Markdown::convertToHtml(e($post->body)) !!} -->
-                                {{ $post->body_html }} 
+                                {{ $post->body }} 
                             </div>
                         </div>
                 </article>
