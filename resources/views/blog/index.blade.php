@@ -2,6 +2,9 @@
 
 @section('content')
 
+
+
+
     <div class="container">
         <div class="row">
             <div class="col-md-8">
@@ -18,7 +21,8 @@
                     <div class="post-item-body">
                         <div class="padding-10">
                             <h2><a href="{{ route('blog.show', $post->slug) }}"> {{ $post->title }} </a></h2>
-                            {{ $post->excerpt }}   
+                            {{ $post->excerpt }}
+                               
                         </div>
 
                         <div class="post-meta padding-10 clearfix">
