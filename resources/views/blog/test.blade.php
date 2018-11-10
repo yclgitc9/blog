@@ -14,6 +14,7 @@
     <br>
 @endforeach
 
+<?php echo GrahamCampbell\Markdown\Facades\Markdown::convertToHtml(e($post->body)); ?>
 <!-- <?php 
     phpinfo(); 
 ?> -->
