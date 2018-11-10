@@ -26,7 +26,7 @@
                                     <li><i class="fa fa-comments"></i><a href="#">4 Comments</a></li>
                                 </ul>
                             </div>
-                                <!-- {!! Markdown::convertToHtml(e($post->body)) !!} -->
+                                
                                 {{ $post->body }} 
                             </div>
                         </div>
