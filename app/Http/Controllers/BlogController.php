@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Post;
 use App\Category;
+use App\User;
 
 class BlogController extends Controller
 {
@@ -49,6 +50,20 @@ class BlogController extends Controller
                             ->simplePaginate($this->limit);
         
         return view("blog.index", compact('posts', 'categoryName')); 
+    }
+
+    public function author(User $author) 
+    {
+        $authorName = $author->name;
+
+        $posts = $author->posts()
+                            ->with('category')
+                            ->latestFirst()
+                            ->published()
+                            ->simplePaginate($this->limit);
+        
+        return view("blog.index", compact('posts', 'categoryName'));
+        // dd($author->name);
     }
 
     public function show(Post $post)
