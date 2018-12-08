@@ -4,3 +4,8 @@ flash alert does not work when we click on author name at file index.blade.php
                             <p>Author: <strong> {{ $authorName }} </strong></p>                            
                         </div>
                     @endif
+
+markdown does not work
+
+gravatar must be tested with ana ctual email address
+
