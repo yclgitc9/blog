@@ -9,3 +9,5 @@ markdown does not work
 
 gravatar must be tested with ana ctual email address
 
+sidebar da popular posts da image thumbnail ler gozukmuyor
+

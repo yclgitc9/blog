@@ -40,10 +40,11 @@
                             <ul class="popular-posts">
                                 @foreach ($popularPosts as $post)
                                     <li>
-                                        @if ($post->image_url)
+                                        @if ($post->image_thumb_url)
                                             <div class="post-image">
                                                 <a href="{{ route('blog.show', $post->slug) }}">
-                                                    <img src=" {{ $post->image_url }}" />
+                                                    <img src=" {{ $post->image_tumb_url }} " />
+                                                    <!-- <img src=" {{ $post->image }} " /> -->
                                                 </a>
                                             </div>
                                         @endif
