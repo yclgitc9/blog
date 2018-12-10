@@ -11,3 +11,6 @@ gravatar must be tested with ana ctual email address
 
 sidebar da popular posts da image thumbnail ler gozukmuyor
 
+post table seeder da degisiklik yapildi
+$image = "Post_Image_" . rand(1, 5) . ".jpg";
+
